@@ -1,3 +1,5 @@
 import streamlit
 
-streamlit.title('Zenas Web Catalog Entry')
+message = "Zena's"
+
+streamlit.title({message} +' Web Catalog Entry')
